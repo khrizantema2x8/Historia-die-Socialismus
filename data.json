@@ -1,5 +1,92 @@
 [
-  "Ai là người lãnh đạo cuộc khởi nghĩa Lam Sơn?",
-  "Trận Bạch Đằng năm 938 có ý nghĩa gì?",
-  "Lý do khiến phong trào Cần Vương thất bại?"
+  {
+    "date": "1930-02-03",
+    "title": "Thành lập Đảng Cộng sản Đông Dương",
+    "description": "Hồ Chí Minh sáng lập Đảng Cộng sản Đông Dương, đặt nền móng cho phong trào cách mạng."
+  },
+  {
+    "date": "1945-08-19",
+    "title": "Cách mạng Tháng Tám",
+    "description": "Việt Minh giành chính quyền trên toàn quốc, kết thúc ách đô hộ Nhật – Pháp."
+  },
+  {
+    "date": "1945-09-02",
+    "title": "Tuyên ngôn Độc lập",
+    "description": "Hồ Chí Minh tuyên bố độc lập, thành lập nước Việt Nam Dân chủ Cộng hòa."
+  },
+  {
+    "date": "1954-05-07",
+    "title": "Chiến thắng Điện Biên Phủ",
+    "description": "Việt Minh đánh bại Pháp tại Điện Biên Phủ, kết thúc thực dân Pháp tại Đông Dương." 
+  },
+  {
+    "date": "1954-07-21",
+    "title": "Hiệp định Genève",
+    "description": "Hiệp định chia đôi Việt Nam tại vĩ tuyến 17, tạo cơ sở bước vào thời kỳ chia cắt."
+  },
+  {
+    "date": "1973-01-27",
+    "title": "Hiệp định Paris",
+    "description": "Hiệp định kết thúc chiến tranh và rút quân Mỹ khỏi Việt Nam." 
+  },
+  {
+    "date": "1975-04-30",
+    "title": "Giải phóng miền Nam và thống nhất đất nước",
+    "description": "Quân đội nhân dân Việt Nam chiếm Sài Gòn, chấm dứt chiến tranh và thống nhất đất nước." 
+  },
+  {
+    "date": "1976-07-02",
+    "title": "Thành lập Nhà nước Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "description": "Quốc hội hợp nhất hai miền thành nước Cộng hoà XHCN Việt Nam, với Hà Nội là thủ đô."
+  },
+  {
+    "date": "1978-12",
+    "title": "Việt Nam tiến đánh Campuchia",
+    "description": "Quân đội Việt Nam đánh đổ chế độ Khmer Đỏ, giúp lập lại hòa bình trong khu vực."
+  },
+  {
+    "date": "1979-02",
+    "title": "Chiến tranh biên giới Việt–Trung",
+    "description": "Xung đột biên giới với Trung Quốc, dẫn đến cuộc chiến cục bộ kéo dài."
+  },
+  {
+    "date": "1986-12",
+    "title": "Khởi đầu Đổi Mới",
+    "description": "Đại hội Đảng lần thứ VI khởi động chính sách Đổi Mới – kinh tế thị trường định hướng XHCN."
+  },
+  {
+    "date": "1995-07",
+    "title": "Bình thường hóa quan hệ với Hoa Kỳ",
+    "description": "Việt Nam và Hoa Kỳ thiết lập quan hệ ngoại giao chính thức sau 20 năm căng thẳng."
+  },
+  {
+    "date": "1995-07",
+    "title": "Việt Nam gia nhập ASEAN",
+    "description": "Việt Nam chính thức trở thành thành viên ASEAN, mở rộng hội nhập khu vực." 
+  },
+  {
+    "date": "2007-01",
+    "title": "Gia nhập WTO",
+    "description": "Việt Nam chính thức gia nhập Tổ chức Thương mại Thế giới, thúc đẩy xuất khẩu và đầu tư." 
+  },
+  {
+    "date": "2019-02-27",
+    "title": "Hội nghị thượng đỉnh Mỹ–Triều tại Hà Nội",
+    "description": "Trump – Kim Jong Un gặp gỡ tại Hà Nội, nâng tầm vị thế Việt Nam trong ngoại giao quốc tế." 
+  },
+  {
+    "date": "2024-08-03",
+    "title": "Ông Tô Lâm được bầu làm Tổng Bí thư Đảng",
+    "description": "Sau khi ông Nguyễn Phú Trọng qua đời, Tô Lâm được bầu Tổng Bí thư Đảng Cộng sản Việt Nam." 
+  },
+  {
+    "date": "2024-10-21",
+    "title": "Ông Lương Cường được bổ nhiệm làm Chủ tịch nước",
+    "description": "Ông Lương Cường trở thành Chủ tịch nước, đánh dấu thay đổi lãnh đạo cấp cao." 
+  },
+  {
+    "date": "2025-04-30",
+    "title": "Kỷ niệm 50 năm Ngày Giải phóng Miền Nam, thống nhất đất nước",
+    "description": "Lễ lớn kỷ niệm 50 năm thống nhất đất nước, tổ chức long trọng tại TP.HCM." 
+  }
 ]
