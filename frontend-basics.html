@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1024, initial-scale=1.0">
+  <title>Chatbot Lịch Sử - Mockup</title>
+  <link rel="preload" href="./NE-Light.otf" as="font" type="font/otf" crossorigin>
+  <style>
+    @font-face {
+      font-family: 'Hanken Neue';
+      src: url('./NE-Light.otf') format('opentype');
+      font-weight: 300;
+      font-style: normal;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #edeced;
+      width: 100vw;
+      min-height: 100vh;
+      font-family: 'Hanken Neue', 'Segoe UI', Arial, sans-serif;
+      box-sizing: border-box;
+    }
+    .settings-link {
+      position: absolute;
+      top: 36px;
+      right: 56px;
+      font-size: 1rem;
+      color: #888;
+      text-decoration: underline;
+      background: none;
+      border: none;
+      cursor: pointer;
+      z-index: 10;
+      font-family: inherit;
+    }
+    .center-content {
+      min-height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .title {
+      font-size: 3.2rem;
+      font-weight: 300;
+      color: #222;
+      letter-spacing: -1px;
+      text-align: center;
+      font-family: inherit;
+      line-height: 1.1;
+      margin: 0 0 64px 0;
+      padding: 0;
+      word-break: break-word;
+      background: none;
+      border: none;
+      box-shadow: none;
+    }
+    .title .break { display: block; }
+    .input-row {
+      width: 520px;
+      max-width: 90vw;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 8px;
+    }
+    .question-textarea {
+      width: 100%;
+      min-height: 0;
+      max-height: 48px;
+      height: 48px;
+      resize: none;
+      border: none;
+      border-bottom: 3px dotted #504f4f;
+      background: transparent;
+      font-size: 1.2rem;
+      color: #222;
+      outline: none;
+      padding: 12px 48px 12px 0;
+      font-family: inherit;
+      transition: border-color 0.2s;
+      overflow: hidden;
+      box-sizing: border-box;
+      line-height: 1.5;
+      margin-bottom: 0;
+      display: block;
+    }
+    .question-textarea:focus {
+      border-bottom: 3px solid #222;
+    }
+    .question-textarea::-webkit-scrollbar { display: none; }
+    .question-textarea::placeholder {
+      color: #aaa;
+      font-size: 1.2rem;
+      font-weight: 300;
+      opacity: 1;
+    }
+    .send-arrow-btn {
+      position: absolute;
+      right: 0;
+      bottom: 12px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      z-index: 2;
+      transition: transform 0.1s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .send-arrow-btn:active { transform: scale(0.95); }
+    .send-arrow-svg {
+      width: 32px;
+      height: 32px;
+      display: block;
+      margin: 0;
+    }
+    .instruction {
+      font-size: 0.98rem;
+      color: #aaa;
+      margin-top: 8px;
+      margin-left: 2px;
+      text-align: left;
+      width: 520px;
+      max-width: 90vw;
+      font-family: inherit;
+      user-select: none;
+    }
+    @media (max-width: 700px) {
+      .title { font-size: 2rem; margin-bottom: 40px; }
+      .input-row, .instruction { width: 98vw; max-width: 98vw; }
+    }
+    @media (max-width: 500px) {
+      .title { font-size: 1.2rem; margin-bottom: 24px; }
+      .settings-link { right: 12px; top: 16px; font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+  <a href="#" class="settings-link">Thiết lập</a>
+  <main class="center-content">
+    <h1 class="title">
+      hãy để lịch sử kể<span class="break"></span>bạn nghe
+    </h1>
+    <div class="input-row">
+      <textarea class="question-textarea" id="questionBox" placeholder="nói đi đang nghe nè" rows="1" maxlength="2500"></textarea>
+      <button class="send-arrow-btn" tabindex="0" aria-label="Gửi câu hỏi">
+        <svg class="send-arrow-svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="4" y1="16" x2="26" y2="16" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+          <polyline points="20,10 26,16 20,22" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+      </button>
+    </div>
+    <div class="instruction">ấn Enter để chạy lệnh</div>
+    <div class="instruction">ấn Shift+Enter để xuống dòng</div>
+  </main>
+  <script>
+    const textarea = document.getElementById('questionBox');
+    textarea.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        // Simulate sending to chatbot (replace with actual logic as needed)
+        // For now, just clear the textarea
+        this.value = '';
+      }
+      // If Shift+Enter, allow default (newline)
+    });
+  </script>
+</body>
+</html>
