@@ -1,6 +1,13 @@
 # 📜 Chatbot Lịch Sử Việt Nam (GROQ API)
 
-Chatbot đơn giản trả lời các câu hỏi về lịch sử Việt Nam, sử dụng mô hình ngôn ngữ từ GROQ (LLaMA 3). Giao diện người dùng xây dựng bằng Streamlit.
+Chatbot tương tác với các nhân vật lịch sử Việt Nam nổi tiếng! Trò chuyện với Hồ Chí Minh, Lý Thường Kiệt, Trần Hưng Đạo và nhiều hơn nữa. Sử dụng mô hình ngôn ngữ từ GROQ (LLaMA 3) và giao diện Streamlit.
+
+## 🎭 Nhân vật có sẵn
+
+- 🌟 **Hồ Chí Minh**: Chủ tịch Hồ Chí Minh, lãnh tụ cách mạng
+- 🏛️ **Lý Thường Kiệt**: Danh tướng triều Lý, tác giả "Nam quốc sơn hà"  
+- ⚔️ **Trần Hưng Đạo**: Đại tướng chống quân Mông Nguyên
+- 📚 **Học giả Lịch sử**: Nhà nghiên cứu khách quan
 
 ---
 
