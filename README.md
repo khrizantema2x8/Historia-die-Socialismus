@@ -75,7 +75,7 @@ streamlit run app.py
 - **Frontend**: Streamlit
 - **LLM**: GROQ (LLaMA 3-8B-8192)
 - **Language**: Python 3.12
-- **Hosting**: Replit
+- **Hosting**: Streamlit
 
 ## 📂 Cấu trúc dự án
 
