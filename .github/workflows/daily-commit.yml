@@ -18,10 +18,13 @@ jobs:
           echo "✅ Daily commit ran at $(date -u)" >> commit_log.txt
 
       - name: Commit and push changes
+        env:
+          TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config --global --add safe.directory $(pwd)
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "auto-committer"
+          git config user.email "auto@github.com"
           git add commit_log.txt
           git commit -m "chore: log daily commit" || echo "No changes to commit"
-          git push
+          git push https://auto-committer:${TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+
