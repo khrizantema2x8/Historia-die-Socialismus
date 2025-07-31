@@ -1,12 +1,31 @@
 
-[
-  "Bác Hồ ơi, tại sao Bác chọn con đường cách mạng?",
-  "Tướng Lý Thường Kiệt, làm thế nào để đánh bại quân Tống?",
-  "Đại tướng Trần Hưng Đạo, bí quyết thắng quân Mông Nguyên là gì?",
-  "Ai là người lãnh đạo cuộc khởi nghĩa Lam Sơn?",
-  "Trận Bạch Đằng năm 938 có ý nghĩa gì?",
-  "Lý do khiến phong trào Cần Vương thất bại?",
-  "Tại sao Điện Biên Phủ được gọi là 'chấn động địa cầu'?",
-  "Ý nghĩa của bài thơ 'Nam quốc sơn hà' là gì?",
-  "Chiến thuật 'đánh úp' của quân dân ta có gì đặc biệt?"
-]
+{
+  "ly_thuong_kiet": [
+    "Tướng Lý Thường Kiệt, làm thế nào để đánh bại quân Tống?",
+    "Ý nghĩa của bài thơ 'Nam quốc sơn hà' là gì?",
+    "Tại sao Tướng lại viết thơ trước khi xuất chinh?",
+    "Chiến thuật nào Tướng sử dụng để bảo vệ biên giương phía Bắc?",
+    "Tướng có lời khuyên gì cho các thế hệ tương lai về tinh thần yêu nước?"
+  ],
+  "ho_chi_minh": [
+    "Bác Hồ ơi, tại sao Bác chọn con đường cách mạng?",
+    "Bác đã trải qua những khó khăn gì khi hoạt động ở nước ngoài?",
+    "Tại sao Bác lại chọn tên 'Hồ Chí Minh'?",
+    "Bác có lời dặn gì cho thế hệ trẻ hôm nay?",
+    "Điều gì khiến Bác tin tưởng vào sức mạnh của nhân dân?"
+  ],
+  "tran_hung_dao": [
+    "Đại tướng Trần Hưng Đạo, bí quyết thắng quân Mông Nguyên là gì?",
+    "Tại sao Đại tướng lại chọn sông Bạch Đằng để đánh giặc?",
+    "Chiến thuật 'đánh úp' của ta có gì đặc biệt?",
+    "Làm thế nào để đoàn kết toàn dân chống giặc ngoại xâm?",
+    "Đại tướng có lời khuyên gì về nghệ thuật quân sự?"
+  ],
+  "general": [
+    "Ai là người lãnh đạo cuộc khởi nghĩa Lam Sơn?",
+    "Trận Bạch Đằng năm 938 có ý nghĩa gì?",
+    "Lý do khiến phong trào Cần Vương thất bại?",
+    "Tại sao Điện Biên Phủ được gọi là 'chấn động địa cầu'?",
+    "Các triều đại phfeudal Việt Nam có đặc điểm gì nổi bật?"
+  ]
+}

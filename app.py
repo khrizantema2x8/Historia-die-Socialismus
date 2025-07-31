@@ -7,9 +7,9 @@ from personalities import get_personality, get_personality_options
 # Khởi tạo client với GROQ_API_KEY từ secrets.toml
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
-# Load câu hỏi mẫu từ data.json
+# Load câu hỏi mẫu theo nhân vật từ data.json
 with open("data.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+    questions_data = json.load(f)
 
 # Giao diện
 st.set_page_config(page_title="Chatbot Lịch Sử", page_icon="📜")
@@ -42,9 +42,10 @@ if st.session_state.get("show_greeting", True):
 
 st.divider()
 
-# Câu hỏi mẫu
-st.subheader("📚 Câu hỏi gợi ý")
-selected_question = st.selectbox("Chọn câu hỏi mẫu:", [""] + data)
+# Câu hỏi mẫu dành riêng cho nhân vật được chọn
+st.subheader(f"📚 Câu hỏi gợi ý cho {current_personality.name}")
+character_questions = questions_data.get(selected_personality_key, [])
+selected_question = st.selectbox("Chọn câu hỏi mẫu:", [""] + character_questions)
 
 # Nhập câu hỏi
 prompt = st.text_area(
